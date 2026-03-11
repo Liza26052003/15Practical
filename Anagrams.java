@@ -5,8 +5,7 @@ import java.io.IOException;
 public class Anagrams{
 
 public static void main(String[] args){
-String content = readLargeFile(\ulysses.text);
-System.out.println(content);
+readLargeFile("/workspaces/15Practical/ulysses.text");
 }
 
 public void readLargeFile(String filePath) {
